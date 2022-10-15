@@ -4,7 +4,7 @@ function App() {
   return (
     <html> 
       <h1>
-        I'mHungeryButBroke
+        I'mHungryButBroke
       </h1>
       <h2>
       <mark class="red">I'mHungeryButBroke offered in: </mark>
