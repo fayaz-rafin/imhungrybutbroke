@@ -1,18 +1,16 @@
+import React, { useState } from 'react';
 import './App.css'
+import data from './data.json'
+import ImgMediaCard from './ImgMediaCard.js'
+
+
 
 function App() {
   return (
-    <html> 
+    <div>
       <h1>
         I'mHungryButBroke
       </h1>
-      <h2>
-      <mark class="red">I'mHungeryButBroke offered in: </mark>
-      <mark class="blue">Français</mark>
-      </h2>    
-
-       
-
 
       <div class="vstack gap-3 centerContent">
 
@@ -25,8 +23,6 @@ function App() {
         </div>
       </div>
    
-
-      <body>
     <div class="container-fluid px-0">
       <div class="row row-cols-auto m-0 header">
       <button class="col navOption">Login</button>
@@ -40,8 +36,12 @@ function App() {
       ></script>
 
     </div>
-  </body>
-</html>
+    {data.map(item => {
+      return (
+        <ImgMediaCard key={item.id} item={item.item} name={item.name} />
+      );
+    })}
+    </div>
   );
 }
 
