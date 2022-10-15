@@ -21,20 +21,10 @@ function App() {
           <button>
             <img src="https://i.ibb.co/FYTGLWQ/search-Icon.png" alt=""/>
           </button>
-          <input type="text" name="" id="" placeholder=""/>
+          <input type="text" name="" id="" placeholder="Please enter your budget"/>
         </div>
       </div>
-      <div class="vstack footerBottom">
-        <div class="row row-cols-auto footer m-0">
-          <button class="col navOption">Canada</button>
-        </div>
-        <p class="lineBreak"></p>
-        <div class="row row-cols-auto footer m-0">
-          <button class="col navOption">Settings</button>
-          <button class="col navOption">Contact Us</button>
-          <button class="col navOption">© 2022 I'mHungeryButBroke. All rights reserved.</button>
-        </div>
-      </div>
+   
 
       <body>
     <div class="container-fluid px-0">
