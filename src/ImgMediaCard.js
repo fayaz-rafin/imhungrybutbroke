@@ -13,16 +13,11 @@ function ImgMediaCard(props) {
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
                         {[props.item]} 
-                    </Typography>;
-                    <Typography variant="body2" color="text.secondary">
-                        {[props.price]}
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                        {[props.price]}
+                        Price: ${[props.price]}
                     </Typography>
-                    <Button size="small" color="primary">
-                        {props.price}
-                    </Button>
+                    
                 </CardContent>
             </CardActionArea>
         </Card>
