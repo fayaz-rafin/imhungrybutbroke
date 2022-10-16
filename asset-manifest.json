@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/imhungrybutbroke/static/css/main.d5910b56.css",
-    "main.js": "/imhungrybutbroke/static/js/main.25eec76e.js",
+    "main.js": "/imhungrybutbroke/static/js/main.383460c4.js",
     "index.html": "/imhungrybutbroke/index.html",
     "main.d5910b56.css.map": "/imhungrybutbroke/static/css/main.d5910b56.css.map",
-    "main.25eec76e.js.map": "/imhungrybutbroke/static/js/main.25eec76e.js.map"
+    "main.383460c4.js.map": "/imhungrybutbroke/static/js/main.383460c4.js.map"
   },
   "entrypoints": [
     "static/css/main.d5910b56.css",
-    "static/js/main.25eec76e.js"
+    "static/js/main.383460c4.js"
   ]
 }
