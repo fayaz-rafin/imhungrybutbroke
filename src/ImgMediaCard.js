@@ -17,7 +17,9 @@ function ImgMediaCard(props) {
                     <Typography variant="body2" color="text.secondary">
                         Price: ${[props.price]}
                     </Typography>
-                    
+                    <Button size="small" color="primary">
+                        {props.price}
+                    </Button>
                 </CardContent>
             </CardActionArea>
         </Card>
