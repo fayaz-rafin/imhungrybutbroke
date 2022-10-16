@@ -7,7 +7,6 @@ import ImgMediaCard from './ImgMediaCard.js'
 
 
 function App() { 
-  // const searchBar = () => { }
   const [searchInput, setSearchInput] = useState("");
   const handleChange = (e) => {
     e.preventDefault();
@@ -33,9 +32,9 @@ function App() {
         <h1>
           I'mHungryButBroke
         </h1>
-        <div class="searchBar">
+        <div className="searchBar">
           <button>
-            <img src="https://i.ibb.co/FYTGLWQ/search-Icon.png" alt=""/>
+            <img className= "Photo" src="https://i.ibb.co/FYTGLWQ/search-Icon.png" alt=""/>
           </button>
           <input
             type="search"
