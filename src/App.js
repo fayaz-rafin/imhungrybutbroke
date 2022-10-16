@@ -7,6 +7,17 @@ import ImgMediaCard from './ImgMediaCard.js'
 
 
 function App() {
+  const searchBar = () => { }
+  const [searchInput, setSearchInput] = useState("");
+  const handleChange = (e) => {
+    e.preventDefault();
+    setSearchInput(e.target.value);
+  };
+
+  
+  const filteredList = data.filter((data) => {
+      return searchInput.length <= 0 ? false : data.name.match(searchInput);
+    });
   return (
     <Stack>
       <div class="container-fluid px-0">
@@ -23,13 +34,22 @@ function App() {
           <button>
             <img src="https://i.ibb.co/FYTGLWQ/search-Icon.png" alt=""/>
           </button>
-          <input type="text" name="" id="" placeholder="Please enter your budget"/>
-          
+          <input
+            type="search"
+            placeholder="Search here"
+            onChange={handleChange}
+            value={searchInput} />
+          <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"
+          ></script>
         </div>
+
       </Stack>
 
       <Grid spacing='1rem' container>
-        {data.map(item => {
+        {filteredList.map(item => {
           return (
             <Grid item xs='4' key={item.id}>
               <ImgMediaCard item={item.item} name={item.name} />

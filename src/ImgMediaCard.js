@@ -15,13 +15,13 @@ function ImgMediaCard(props) {
                         {[props.item]} 
                     </Typography>;
                     <Typography variant="body2" color="text.secondary">
-                        {[props.name]}
+                        {[props.id]}
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                        {[props.price]}
+                        {[props.id]}
                     </Typography>
                     <Button size="small" color="primary">
-                        {props.price}
+                        {props.id}
                     </Button>
                 </CardContent>
             </CardActionArea>

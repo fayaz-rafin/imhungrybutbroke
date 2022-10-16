@@ -1,20 +1,26 @@
 [
     {
-        "id": "1",
-        "name": "McDonalds",
+        "id": "McDonalds",
+        "name": "1",
         "item":"Fries",
-        "price": "$0.99"
+        "price": "McDonalds"
     },
     {
-        "id": "2",
-        "name": "Starbucks",
-        "item": "Big Mac",
-        "price": "$5.99"
+        "id": "Starbucks",
+        "name": "2",
+        "item": "Starbucks - Pumpkin Spice Latte",
+        "price": "Starbucks"
     },
     {
-        "id": "3",
-        "name": "A&W",
+        "id": "McDonalds",
+        "name": "3",
         "item": "McFlurry",
-        "price": "$3.99"
+        "price": "McDonalds"
+    },
+    {
+        "id": "Starbucks",
+        "name": "4",
+        "item": "Mocha",
+        "price": "Starbucks"
     }
 ]
