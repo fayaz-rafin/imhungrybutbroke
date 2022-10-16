@@ -38,7 +38,7 @@ function App() {
           </button>
           <input
             type="search"
-            placeholder="Search here"
+            placeholder="Please enter your current budget."
             onChange={handleChange}
             value={searchInput} />
           <script
