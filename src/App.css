@@ -61,20 +61,7 @@ mark.blue {
   text-decoration: underline;
 }
 
-.botonLogin {
-  position: fixed;
-  background-color: #600CD2;
-  color: white;
-  text-align: top;
-  border: none;
-  /* !important is to override Bootstraps default properties */
-  padding-top: 2000px !important;
-  padding: 9px 25px !important;
-  border-radius: 6px;
-  margin-left: 20px !important;
-  margin-right: 15px !important;
-  margin-top: 0px;
-}
+.
 
 /* --------- Center Content --------- */
 

@@ -3,97 +3,113 @@
         "id": "Starbucks",
         "name": "1",
         "item": "Pumpkin Spice Latte - Tall",
-        "price": 4.25
+        "price": 4.25,
+        "imgurl": "https://globalassets.starbucks.com/assets/895d6b3916c14ad6862d88ce282e8838.jpg?impolicy=1by1_wide_topcrop_630"
     },
     {
         "id": "Starbucks",
         "name": "2",
         "item": "Caffe Mocha - Tall",
-        "price": 3.45
+        "price": 3.45,
+        "imgurl": "https://globalassets.starbucks.com/assets/915736da018842e788147f7eab73db73.jpg?impolicy=1by1_wide_topcrop_630"
     },
     {
         "id": "McDonalds",
         "name": "3",
         "item":"French Fries - Small",
-        "price": 1.69
+        "price": 1.69,
+        "imgurl": "https://s7d1.scene7.com/is/image/mcdonalds/mcdonalds-fries-small:product-header-desktop?wid=829&hei=455&dpr=off"
     },
     {
         "id": "McDonalds",
         "name": "4",
         "item":"French Fries - Medium",
-        "price": 2.89
+        "price": 2.89,
+        "imgurl": "https://s7d1.scene7.com/is/image/mcdonalds/mcdonalds-fries-medium:product-header-desktop?wid=829&hei=455&dpr=off"
     },
     {
         "id": "McDonalds",
         "name": "5",
         "item":"French Fries - Large",
-        "price": 3.29
+        "price": 3.29,
+        "imgurl": "https://s7d1.scene7.com/is/image/mcdonalds/mcdonalds-fries-large:product-header-desktop?wid=829&hei=455&dpr=off"
     },
     {
         "id": "McDonalds",
         "name": "6",
         "item":"Big Mac",
-        "price": 5.69
+        "price": 5.69,
+        "imgurl": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Big-Mac.jpg?$Product_Desktop$"
     },
     {
         "id": "McDonalds",
         "name": "7",
         "item":"Double Quarter Pounder with Cheese",
-        "price": 7.19
+        "price": 7.19,
+        "imgurl": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Double-Quarter-Pounder-with-Cheese.jpg?$Product_Desktop$"
     },
     {
         "id": "McDonalds",
         "name": "8",
         "item":"Fountain Drink - Small",
-        "price": 1.74
+        "price": 1.74,
+        "imgurl": "https://s7d1.scene7.com/is/image/mcdonalds/mcdonalds-coca-cola-zero:product-header-desktop?wid=829&hei=455&dpr=off"
     },
     {
         "id": "McDonalds",
         "name": "9",
         "item":"Fountain Drink - Medium",
-        "price": 2.24
+        "price": 2.24,
+        "imgurl": "https://s7d1.scene7.com/is/image/mcdonalds/mcdonalds-coca-cola-zero:product-header-desktop?wid=829&hei=455&dpr=off"
     },
     {
         "id": "McDonalds",
         "name": "10",
         "item":"Fountain Drink - Large",
-        "price": 2.54
+        "price": 2.54,
+        "imgurl": "https://s7d1.scene7.com/is/image/mcdonalds/mcdonalds-coca-cola-zero:product-header-desktop?wid=829&hei=455&dpr=off"
     },
     {
         "id": "McDonalds",
         "name": "11",
         "item": "Quarter Pounder with Cheese",
-        "price": 5.69
+        "price": 5.69,
+        "imgurl": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Quarter-Pounder-with-Cheese.jpg?$Product_Desktop$"
     },
     {
         "id": "McDonalds",
         "name": "12",
         "item": "Hamburger",
-        "price": 1.69
+        "price": 1.69,
+        "imgurl": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Hamburger.jpg?$Product_Desktop$"
     },
     {
         "id": "McDonalds",
         "name": "13",
         "item": "Cheeseburger",
-        "price": 1.89
+        "price": 1.89,
+        "imgurl": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Cheeseburger.jpg?$Product_Desktop$"
     },
     {
         "id": "McDonalds",
         "name": "14",
         "item": "Double Cheeseburger",
-        "price": 2.39
+        "price": 2.39,
+        "imgurl": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Double-Cheeseburger.jpg?$Product_Desktop$"
     },
     {
         "id": "McDonalds",
         "name": "15",
         "item": "McDouble",
-        "price": 2.29
+        "price": 2.29,
+        "imgurl": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McDouble.jpg?$Product_Desktop$"
     },
     {
         "id": "McDonalds",
         "name": "16",
         "item": "McChicken",
-        "price": 5.39
+        "price": 5.39,
+        "imgurl": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McChicken.jpg?$Product_Desktop$"
     }
 
 ]

@@ -8,17 +8,21 @@ function ImgMediaCard(props) {
                 <CardMedia
                     component="img"
                     height="140"
-                    alt="green iguana"
+                    alt="food"
+                    image={props.imgurl}
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
                         {[props.item]} 
                     </Typography>
+                    <Typography variant="body1" color="text.secondary">
+                       {[props.id]}
+                    </Typography>
                     <Typography variant="body2" color="text.secondary">
                         Price: ${[props.price]}
                     </Typography>
-                    <Button size="small" color="primary">
-                        {props.price}
+                    <Button size="medium" color="secondary">
+                       Order Now
                     </Button>
                 </CardContent>
             </CardActionArea>

@@ -6,7 +6,7 @@ import ImgMediaCard from './ImgMediaCard.js'
 
 
 
-function App() {
+function App() { 
   // const searchBar = () => { }
   const [searchInput, setSearchInput] = useState("");
   const handleChange = (e) => {
