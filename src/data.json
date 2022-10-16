@@ -1,26 +1,99 @@
 [
     {
-        "id": "McDonalds",
+        "id": "Starbucks",
         "name": "1",
-        "item":"Fries",
-        "price": 1
+        "item": "Pumpkin Spice Latte - Tall",
+        "price": 4.25
     },
     {
         "id": "Starbucks",
         "name": "2",
-        "item": "Starbucks - Pumpkin Spice Latte",
-        "price": 2
+        "item": "Caffe Mocha - Tall",
+        "price": 3.45
     },
     {
         "id": "McDonalds",
         "name": "3",
-        "item": "McFlurry - Oreo",
-        "price": 3
+        "item":"French Fries - Small",
+        "price": 1.69
     },
     {
-        "id": "Starbucks",
+        "id": "McDonalds",
         "name": "4",
-        "item": "Mocha",
-        "price": 4
+        "item":"French Fries - Medium",
+        "price": 2.89
+    },
+    {
+        "id": "McDonalds",
+        "name": "5",
+        "item":"French Fries - Large",
+        "price": 3.29
+    },
+    {
+        "id": "McDonalds",
+        "name": "6",
+        "item":"Big Mac",
+        "price": 5.69
+    },
+    {
+        "id": "McDonalds",
+        "name": "7",
+        "item":"Double Quarter Pounder with Cheese",
+        "price": 7.19
+    },
+    {
+        "id": "McDonalds",
+        "name": "8",
+        "item":"Fountain Drink - Small",
+        "price": 1.74
+    },
+    {
+        "id": "McDonalds",
+        "name": "9",
+        "item":"Fountain Drink - Medium",
+        "price": 2.24
+    },
+    {
+        "id": "McDonalds",
+        "name": "10",
+        "item":"Fountain Drink - Large",
+        "price": 2.54
+    },
+    {
+        "id": "McDonalds",
+        "name": "11",
+        "item": "Quarter Pounder with Cheese",
+        "price": 5.69
+    },
+    {
+        "id": "McDonalds",
+        "name": "12",
+        "item": "Hamburger",
+        "price": 1.69
+    },
+    {
+        "id": "McDonalds",
+        "name": "13",
+        "item": "Cheeseburger",
+        "price": 1.89
+    },
+    {
+        "id": "McDonalds",
+        "name": "14",
+        "item": "Double Cheeseburger",
+        "price": 2.39
+    },
+    {
+        "id": "McDonalds",
+        "name": "15",
+        "item": "McDouble",
+        "price": 2.29
+    },
+    {
+        "id": "McDonalds",
+        "name": "16",
+        "item": "McChicken",
+        "price": 5.39
     }
+
 ]
