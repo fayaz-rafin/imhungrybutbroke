@@ -36,12 +36,13 @@ function App() {
       ></script>
 
     </div>
-    {data.map(item => {
-      return (
-        <ImgMediaCard key={item.id} item={item.item} name={item.name} />
-      );
-    })}
+      {data.map(item => {
+        return (
+          <ImgMediaCard key={item.id} item={item.item} name={item.name} />
+        )
+      })}
     </div>
+    
   );
 }
 
