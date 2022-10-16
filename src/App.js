@@ -7,7 +7,7 @@ import ImgMediaCard from './ImgMediaCard.js'
 
 
 function App() {
-  const searchBar = () => { }
+  // const searchBar = () => { }
   const [searchInput, setSearchInput] = useState("");
   const handleChange = (e) => {
     e.preventDefault();
@@ -16,8 +16,11 @@ function App() {
 
   
   const filteredList = data.filter((data) => {
-      return searchInput.length <= 0 ? false : data.name.match(searchInput);
-    });
+    if (searchInput.length === 0) {
+      return false;
+    }
+    return data.price <= searchInput;
+  });
   return (
     <Stack>
       <div class="container-fluid px-0">
@@ -52,7 +55,7 @@ function App() {
         {filteredList.map(item => {
           return (
             <Grid item xs='4' key={item.id}>
-              <ImgMediaCard item={item.item} name={item.name} />
+              <ImgMediaCard {...item} />
             </Grid>
           )
         })}

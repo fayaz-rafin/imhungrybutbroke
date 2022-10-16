@@ -3,24 +3,24 @@
         "id": "McDonalds",
         "name": "1",
         "item":"Fries",
-        "price": "McDonalds"
+        "price": 1
     },
     {
         "id": "Starbucks",
         "name": "2",
         "item": "Starbucks - Pumpkin Spice Latte",
-        "price": "Starbucks"
+        "price": 2
     },
     {
         "id": "McDonalds",
         "name": "3",
         "item": "McFlurry",
-        "price": "McDonalds"
+        "price": 3
     },
     {
         "id": "Starbucks",
         "name": "4",
         "item": "Mocha",
-        "price": "Starbucks"
+        "price": 4
     }
 ]
