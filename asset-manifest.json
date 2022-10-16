@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/imhungrybutbroke/static/css/main.d5910b56.css",
+    "main.js": "/imhungrybutbroke/static/js/main.8bbe1f6c.js",
+    "index.html": "/imhungrybutbroke/index.html",
+    "main.d5910b56.css.map": "/imhungrybutbroke/static/css/main.d5910b56.css.map",
+    "main.8bbe1f6c.js.map": "/imhungrybutbroke/static/js/main.8bbe1f6c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5910b56.css",
+    "static/js/main.8bbe1f6c.js"
+  ]
+}
