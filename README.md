@@ -1,6 +1,7 @@
-## ImHungryButBroke
+## ImHungryButBroke - HackTheValley 2022
 ##Version 1.0.24
-As university students, paying for tuition is very expensive and we have a very tight budget for our living. As such, we always have to constantly check how much money we spend on food. Well we no longer have to do that thanks to our web-app called "I'mHungrybutBroke"!
+---
+As university students, paying for tuition is very expensive and we have a very tight budget for our living. As such, we always have to constantly check how much money we spend on food. Well we no longer have to do that thanks to our web-app called "I'mHungrybutBroke"! 
 ## What it does
 Let's say we have a specific budget in mind (20 dollar budget) for food. Our app lets you find the cheapest food from the nearest food vendors and redirects you to their app or website to order food.
 ## How we built it
